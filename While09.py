@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    sum = 0
+    while i < len(s):
+        if s[i] >= '0' and s[i] <= '9':
+                sum+=int(s[i])
+        i+=1
+    return sum
+print(main('python 20221178'))
