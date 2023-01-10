@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    sum = 0
+    while i < len(s):
+        if s[i].isalpha():
+            sum+=1
+        i+=1
+    return sum
+
+print(main("python 2022"))
+print(main("yusupovna1403"))
